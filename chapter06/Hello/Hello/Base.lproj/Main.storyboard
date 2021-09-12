@@ -25,6 +25,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGK-2r-iaQ">
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sayHello" destination="BYZ-38-t0r" eventType="touchUpInside" id="4sl-EI-Kne"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,6 +39,9 @@
                             <constraint firstItem="PGK-2r-iaQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dSX-fn-2eW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="d3h-OM-egN" id="gKc-Mj-Qd3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

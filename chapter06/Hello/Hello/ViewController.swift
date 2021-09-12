@@ -7,8 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
+    @IBAction func sayHello() {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
