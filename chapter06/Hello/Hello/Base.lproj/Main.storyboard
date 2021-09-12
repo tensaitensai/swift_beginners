@@ -17,10 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3h-OM-egN">
-                                <rect key="frame" x="184" y="291" width="46" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="kBf-Al-2dl"/>
-                                </constraints>
+                                <rect key="frame" x="186.5" y="224" width="41.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,11 +30,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PGK-2r-iaQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FT1-2l-104"/>
-                            <constraint firstItem="d3h-OM-egN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="247" id="Iev-Js-Yzu"/>
-                            <constraint firstItem="d3h-OM-egN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cAB-6H-dYR"/>
-                            <constraint firstItem="d3h-OM-egN" firstAttribute="trailing" secondItem="PGK-2r-iaQ" secondAttribute="trailing" id="oaW-yR-9fu"/>
-                            <constraint firstItem="d3h-OM-egN" firstAttribute="leading" secondItem="PGK-2r-iaQ" secondAttribute="leading" id="xjw-b9-uHa"/>
+                            <constraint firstItem="d3h-OM-egN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Ja-kH-N1H"/>
+                            <constraint firstItem="PGK-2r-iaQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="A8T-sW-FwN"/>
+                            <constraint firstItem="d3h-OM-egN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="FSH-sL-fMK"/>
+                            <constraint firstItem="PGK-2r-iaQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dSX-fn-2eW"/>
                         </constraints>
                     </view>
                 </viewController>
